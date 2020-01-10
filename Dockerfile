@@ -1,6 +1,5 @@
 FROM ubuntu:latest
 MAINTAINER kangis "kangis@ji-in.com"
-RUN c
 RUN apt-get install -y python-pip python-dev build-essential
 COPY . /app
 WORKDIR /app
